@@ -248,7 +248,7 @@ function trivPrevPage() {
 }
 
 function trivNextPage() {
-    trivExitPage( 'utama.html', true )
+    trivExitPage( 'home_home.html', true )
 }
 
 function trivUpdateTOC( bRecurse ) {
@@ -270,7 +270,7 @@ function OnDeviceRotate() {
 }
 
 function action7203(fn){
-    trivExitPage('utama.html',true); 
+    trivExitPage('home_home.html',true); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
